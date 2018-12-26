@@ -57,3 +57,16 @@ print('=' * 20)
 print(math.modf(4.5))
 print(math.modf(0))
 print(math.modf(3))
+
+print('=' * 20)
+# copysign() 将第二个参数的符号（正负号）传给第一个参数，返回第一个参数的浮点型
+print(math.copysign(2, -3))
+print(math.copysign(-2, 3))
+
+print('=' * 20)
+# 打印自然对数e和π的值
+print(math.e)
+print(math.pi)
+
+print('=' * 20)
+#
