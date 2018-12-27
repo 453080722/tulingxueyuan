@@ -27,9 +27,7 @@ def one_line():
     return str_num
 
 
-def guess_number():
-    global total
-    global score
+def guess_number(total, score):
     while True:
         # 输入函数
         # 输入函数输入的是字符串类型，不强制转换会报错
@@ -86,5 +84,5 @@ if __name__ == '__main__':
     total = 0
     # 定义一个初始值来存储分数
     score = 0
-    guess_number()
+    guess_number(total, score)
     print('你一共玩了{}次，的最终分数为{}'.format(total, score))
