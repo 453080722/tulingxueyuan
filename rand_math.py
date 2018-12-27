@@ -80,6 +80,8 @@ def guess_number():
 
 # 程序入口
 if __name__ == '__main__':
+    global total
+    global score
     # 定义一个初始值来存储次数
     total = 0
     # 定义一个初始值来存储分数
